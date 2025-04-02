@@ -2,8 +2,8 @@
 FROM gradle:8.3-jdk17 AS builder
 WORKDIR /app
 
-# Gradle 캐시 유지: 종속성 다운로드 속도를 높이기 위해 Gradle 캐시를 유지
-VOLUME /root/.gradle
+# Gradle 캐시 디렉토리 공유
+ENV GRADLE_USER_HOME=/home/gradle/.gradle
 
 # Gradle Wrapper 및 종속성 캐싱을 위해 필요한 파일 복사
 COPY gradlew gradlew
@@ -11,12 +11,14 @@ COPY gradle gradle
 COPY build.gradle.kts build.gradle.kts
 COPY settings.gradle.kts settings.gradle.kts
 
-# 종속성 미리 다운로드하여 빌드 시간을 단축
-RUN ./gradlew dependencies --no-daemon
+# 종속성만 미리 다운로드 (빌드 캐시 최적화)
+RUN ./gradlew build --no-daemon --stacktrace -x test || true
 
 # 전체 프로젝트를 컨테이너에 복사하고 빌드 (테스트 제외)
 COPY . .
-RUN ./gradlew clean build -x test --no-daemon --parallel
+
+# 본격 빌드 (테스트 제외, clean 생략, daemon 사용)
+RUN ./gradlew build -x test --stacktrace
 
 # 2. Run Stage: 애플리케이션 실행 단계
 FROM openjdk:17-jdk-slim
