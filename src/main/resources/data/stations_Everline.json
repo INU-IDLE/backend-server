@@ -1,0 +1,159 @@
+{
+  "header": {
+    "resultCnt": 15,
+    "resultCode": "00",
+    "resultMsg": "정상 처리되었습니다."
+  },
+  "body": [
+    {
+      "mreaWideCd": "01",
+      "routCd": "E1",
+      "routNm": "에버라인",
+      "stinConsOrdr": 1,
+      "railOprIsttCd": "EV",
+      "lnCd": "E1",
+      "stinCd": "Y110",
+      "stinNm": "기흥(백남준아트센터)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "E1",
+      "routNm": "에버라인",
+      "stinConsOrdr": 2,
+      "railOprIsttCd": "EV",
+      "lnCd": "E1",
+      "stinCd": "Y111",
+      "stinNm": "강남대"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "E1",
+      "routNm": "에버라인",
+      "stinConsOrdr": 3,
+      "railOprIsttCd": "EV",
+      "lnCd": "E1",
+      "stinCd": "Y112",
+      "stinNm": "지석"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "E1",
+      "routNm": "에버라인",
+      "stinConsOrdr": 4,
+      "railOprIsttCd": "EV",
+      "lnCd": "E1",
+      "stinCd": "Y113",
+      "stinNm": "어정"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "E1",
+      "routNm": "에버라인",
+      "stinConsOrdr": 5,
+      "railOprIsttCd": "EV",
+      "lnCd": "E1",
+      "stinCd": "Y114",
+      "stinNm": "동백"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "E1",
+      "routNm": "에버라인",
+      "stinConsOrdr": 6,
+      "railOprIsttCd": "EV",
+      "lnCd": "E1",
+      "stinCd": "Y115",
+      "stinNm": "초당"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "E1",
+      "routNm": "에버라인",
+      "stinConsOrdr": 7,
+      "railOprIsttCd": "EV",
+      "lnCd": "E1",
+      "stinCd": "Y116",
+      "stinNm": "삼가"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "E1",
+      "routNm": "에버라인",
+      "stinConsOrdr": 8,
+      "railOprIsttCd": "EV",
+      "lnCd": "E1",
+      "stinCd": "Y117",
+      "stinNm": "시청·용인대"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "E1",
+      "routNm": "에버라인",
+      "stinConsOrdr": 9,
+      "railOprIsttCd": "EV",
+      "lnCd": "E1",
+      "stinCd": "Y118",
+      "stinNm": "명지대"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "E1",
+      "routNm": "에버라인",
+      "stinConsOrdr": 10,
+      "railOprIsttCd": "EV",
+      "lnCd": "E1",
+      "stinCd": "Y119",
+      "stinNm": "김량장"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "E1",
+      "routNm": "에버라인",
+      "stinConsOrdr": 11,
+      "railOprIsttCd": "EV",
+      "lnCd": "E1",
+      "stinCd": "Y120",
+      "stinNm": "운동장·송담대"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "E1",
+      "routNm": "에버라인",
+      "stinConsOrdr": 12,
+      "railOprIsttCd": "EV",
+      "lnCd": "E1",
+      "stinCd": "Y121",
+      "stinNm": "고진"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "E1",
+      "routNm": "에버라인",
+      "stinConsOrdr": 13,
+      "railOprIsttCd": "EV",
+      "lnCd": "E1",
+      "stinCd": "Y122",
+      "stinNm": "보평"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "E1",
+      "routNm": "에버라인",
+      "stinConsOrdr": 14,
+      "railOprIsttCd": "EV",
+      "lnCd": "E1",
+      "stinCd": "Y123",
+      "stinNm": "둔전"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "E1",
+      "routNm": "에버라인",
+      "stinConsOrdr": 15,
+      "railOprIsttCd": "EV",
+      "lnCd": "E1",
+      "stinCd": "Y124",
+      "stinNm": "전대·에버랜드"
+    }
+  ]
+}

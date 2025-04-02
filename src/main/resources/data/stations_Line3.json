@@ -1,0 +1,449 @@
+{
+  "header": {
+    "resultCnt": 44,
+    "resultCode": "00",
+    "resultMsg": "정상 처리되었습니다."
+  },
+  "body": [
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 1,
+      "railOprIsttCd": "KR",
+      "lnCd": "3",
+      "stinCd": "309",
+      "stinNm": "대화"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 2,
+      "railOprIsttCd": "KR",
+      "lnCd": "3",
+      "stinCd": "310",
+      "stinNm": "주엽"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 3,
+      "railOprIsttCd": "KR",
+      "lnCd": "3",
+      "stinCd": "311",
+      "stinNm": "정발산"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 4,
+      "railOprIsttCd": "KR",
+      "lnCd": "3",
+      "stinCd": "312",
+      "stinNm": "마두"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 5,
+      "railOprIsttCd": "KR",
+      "lnCd": "3",
+      "stinCd": "313",
+      "stinNm": "백석"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 6,
+      "railOprIsttCd": "KR",
+      "lnCd": "3",
+      "stinCd": "314",
+      "stinNm": "대곡"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 7,
+      "railOprIsttCd": "KR",
+      "lnCd": "3",
+      "stinCd": "315",
+      "stinNm": "화정"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 8,
+      "railOprIsttCd": "KR",
+      "lnCd": "3",
+      "stinCd": "316",
+      "stinNm": "원당"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 9,
+      "railOprIsttCd": "KR",
+      "lnCd": "3",
+      "stinCd": "317",
+      "stinNm": "원흥"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 10,
+      "railOprIsttCd": "KR",
+      "lnCd": "3",
+      "stinCd": "318",
+      "stinNm": "삼송"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 11,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "319",
+      "stinNm": "지축"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 12,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "320",
+      "stinNm": "구파발"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 13,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "321",
+      "stinNm": "연신내"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 14,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "322",
+      "stinNm": "불광"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 15,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "323",
+      "stinNm": "녹번"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 16,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "324",
+      "stinNm": "홍제"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 17,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "325",
+      "stinNm": "무악재"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 18,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "326",
+      "stinNm": "독립문"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 19,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "327",
+      "stinNm": "경복궁(정부서울청사)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 20,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "328",
+      "stinNm": "안국"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 21,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "329",
+      "stinNm": "종로3가"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 22,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "330",
+      "stinNm": "을지로3가"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 23,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "331",
+      "stinNm": "충무로"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 24,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "332",
+      "stinNm": "동대입구"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 25,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "333",
+      "stinNm": "약수"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 26,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "334",
+      "stinNm": "금호"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 27,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "335",
+      "stinNm": "옥수"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 28,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "336",
+      "stinNm": "압구정"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 29,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "337",
+      "stinNm": "신사"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 30,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "338",
+      "stinNm": "잠원"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 31,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "339",
+      "stinNm": "고속터미널"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 32,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "340",
+      "stinNm": "교대(법원·검찰청)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 33,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "341",
+      "stinNm": "남부터미널(예술의전당)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 34,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "342",
+      "stinNm": "양재(서초구청)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 35,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "343",
+      "stinNm": "매봉"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 36,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "344",
+      "stinNm": "도곡"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 37,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "345",
+      "stinNm": "대치"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 38,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "346",
+      "stinNm": "학여울"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 39,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "347",
+      "stinNm": "대청"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 40,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "348",
+      "stinNm": "일원"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 41,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "349",
+      "stinNm": "수서"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 42,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "350",
+      "stinNm": "가락시장"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 43,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "351",
+      "stinNm": "경찰병원"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "3",
+      "routNm": "3호선",
+      "stinConsOrdr": 44,
+      "railOprIsttCd": "S1",
+      "lnCd": "3",
+      "stinCd": "352",
+      "stinNm": "오금"
+    }
+  ]
+}

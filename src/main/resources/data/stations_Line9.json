@@ -1,0 +1,389 @@
+{
+  "header": {
+    "resultCnt": 38,
+    "resultCode": "00",
+    "resultMsg": "정상 처리되었습니다."
+  },
+  "body": [
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 1,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "901",
+      "stinNm": "개화"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 2,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "902",
+      "stinNm": "김포공항"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 3,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "903",
+      "stinNm": "공항시장"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 4,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "904",
+      "stinNm": "신방화"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 5,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "905",
+      "stinNm": "마곡나루"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 6,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "906",
+      "stinNm": "양천향교"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 7,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "907",
+      "stinNm": "가양"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 8,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "908",
+      "stinNm": "증미"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 9,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "909",
+      "stinNm": "등촌"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 10,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "910",
+      "stinNm": "염창"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 11,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "911",
+      "stinNm": "신목동"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 12,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "912",
+      "stinNm": "선유도"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 13,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "913",
+      "stinNm": "당산"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 14,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "914",
+      "stinNm": "국회의사당"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 15,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "915",
+      "stinNm": "여의도"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 16,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "916",
+      "stinNm": "샛강"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 17,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "917",
+      "stinNm": "노량진"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 18,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "918",
+      "stinNm": "노들"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 19,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "919",
+      "stinNm": "흑석(중앙대입구)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 20,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "920",
+      "stinNm": "동작(현충원)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 21,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "921",
+      "stinNm": "구반포"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 22,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "922",
+      "stinNm": "신반포"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 23,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "923",
+      "stinNm": "고속터미널"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 24,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "924",
+      "stinNm": "사평"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 25,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "925",
+      "stinNm": "신논현"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 26,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "926",
+      "stinNm": "언주"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 27,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "927",
+      "stinNm": "선정릉"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 28,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "928",
+      "stinNm": "삼성중앙"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 29,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "929",
+      "stinNm": "봉은사"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 30,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "930",
+      "stinNm": "종합운동장"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 31,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "931",
+      "stinNm": "삼전"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 32,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "932",
+      "stinNm": "석촌고분"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 33,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "933",
+      "stinNm": "석촌"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 34,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "934",
+      "stinNm": "송파나루"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 35,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "935",
+      "stinNm": "한성백제"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 36,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "936",
+      "stinNm": "올림픽공원(한국체대)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 37,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "937",
+      "stinNm": "둔촌오륜"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "9",
+      "routNm": "9호선",
+      "stinConsOrdr": 38,
+      "railOprIsttCd": "S9",
+      "lnCd": "9",
+      "stinCd": "938",
+      "stinNm": "중앙보훈병원"
+    }
+  ]
+}
