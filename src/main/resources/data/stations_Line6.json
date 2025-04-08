@@ -1,0 +1,399 @@
+{
+  "header": {
+    "resultCnt": 39,
+    "resultCode": "00",
+    "resultMsg": "정상 처리되었습니다."
+  },
+  "body": [
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 1,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "610",
+      "stinNm": "응암"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 2,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "611",
+      "stinNm": "역촌"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 3,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "612",
+      "stinNm": "불광"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 4,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "613",
+      "stinNm": "독바위"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 5,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "614",
+      "stinNm": "연신내"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 6,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "615",
+      "stinNm": "구산"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 7,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "616",
+      "stinNm": "새절(신사)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 8,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "617",
+      "stinNm": "증산(명지대앞)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 9,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "618",
+      "stinNm": "디지털미디어시티"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 10,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "619",
+      "stinNm": "월드컵경기장(성산)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 11,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "620",
+      "stinNm": "마포구청"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 12,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "621",
+      "stinNm": "망원"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 13,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "622",
+      "stinNm": "합정"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 14,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "623",
+      "stinNm": "상수"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 15,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "624",
+      "stinNm": "광흥창(서강)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 16,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "625",
+      "stinNm": "대흥(서강대앞)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 17,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "626",
+      "stinNm": "공덕"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 18,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "627",
+      "stinNm": "효창공원앞"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 19,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "628",
+      "stinNm": "삼각지"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 20,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "629",
+      "stinNm": "녹사평(용산구청)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 21,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "630",
+      "stinNm": "이태원"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 22,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "631",
+      "stinNm": "한강진"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 23,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "632",
+      "stinNm": "버티고개"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 24,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "633",
+      "stinNm": "약수"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 25,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "634",
+      "stinNm": "청구"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 26,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "635",
+      "stinNm": "신당"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 27,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "636",
+      "stinNm": "동묘앞"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 28,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "637",
+      "stinNm": "창신"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 29,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "638",
+      "stinNm": "보문"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 30,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "639",
+      "stinNm": "안암(고대병원앞)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 31,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "640",
+      "stinNm": "고려대(종암)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 32,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "641",
+      "stinNm": "월곡(동덕여대)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 33,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "642",
+      "stinNm": "상월곡(한국과학기술연구원)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 34,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "643",
+      "stinNm": "돌곶이"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 35,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "644",
+      "stinNm": "석계"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 36,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "645",
+      "stinNm": "태릉입구"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 37,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "646",
+      "stinNm": "화랑대(서울여대입구)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 38,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "647",
+      "stinNm": "봉화산(서울의료원)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "6",
+      "routNm": "6호선",
+      "stinConsOrdr": 39,
+      "railOprIsttCd": "S1",
+      "lnCd": "6",
+      "stinCd": "648",
+      "stinNm": "신내"
+    }
+  ]
+}

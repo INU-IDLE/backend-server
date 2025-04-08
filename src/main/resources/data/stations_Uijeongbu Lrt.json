@@ -1,0 +1,159 @@
+{
+  "header": {
+    "resultCnt": 15,
+    "resultCode": "00",
+    "resultMsg": "정상 처리되었습니다."
+  },
+  "body": [
+    {
+      "mreaWideCd": "01",
+      "routCd": "U1",
+      "routNm": "의정부",
+      "stinConsOrdr": 1,
+      "railOprIsttCd": "UL",
+      "lnCd": "U1",
+      "stinCd": "U110",
+      "stinNm": "발곡"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "U1",
+      "routNm": "의정부",
+      "stinConsOrdr": 2,
+      "railOprIsttCd": "UL",
+      "lnCd": "U1",
+      "stinCd": "U111",
+      "stinNm": "회룡"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "U1",
+      "routNm": "의정부",
+      "stinConsOrdr": 3,
+      "railOprIsttCd": "UL",
+      "lnCd": "U1",
+      "stinCd": "U112",
+      "stinNm": "범골"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "U1",
+      "routNm": "의정부",
+      "stinConsOrdr": 4,
+      "railOprIsttCd": "UL",
+      "lnCd": "U1",
+      "stinCd": "U113",
+      "stinNm": "경전철의정부"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "U1",
+      "routNm": "의정부",
+      "stinConsOrdr": 5,
+      "railOprIsttCd": "UL",
+      "lnCd": "U1",
+      "stinCd": "U114",
+      "stinNm": "의정부시청"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "U1",
+      "routNm": "의정부",
+      "stinConsOrdr": 6,
+      "railOprIsttCd": "UL",
+      "lnCd": "U1",
+      "stinCd": "U115",
+      "stinNm": "흥선"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "U1",
+      "routNm": "의정부",
+      "stinConsOrdr": 7,
+      "railOprIsttCd": "UL",
+      "lnCd": "U1",
+      "stinCd": "U117",
+      "stinNm": "의정부중앙"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "U1",
+      "routNm": "의정부",
+      "stinConsOrdr": 8,
+      "railOprIsttCd": "UL",
+      "lnCd": "U1",
+      "stinCd": "U118",
+      "stinNm": "동오"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "U1",
+      "routNm": "의정부",
+      "stinConsOrdr": 9,
+      "railOprIsttCd": "UL",
+      "lnCd": "U1",
+      "stinCd": "U119",
+      "stinNm": "새말"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "U1",
+      "routNm": "의정부",
+      "stinConsOrdr": 10,
+      "railOprIsttCd": "UL",
+      "lnCd": "U1",
+      "stinCd": "U120",
+      "stinNm": "경기도청북부청사"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "U1",
+      "routNm": "의정부",
+      "stinConsOrdr": 11,
+      "railOprIsttCd": "UL",
+      "lnCd": "U1",
+      "stinCd": "U121",
+      "stinNm": "효자"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "U1",
+      "routNm": "의정부",
+      "stinConsOrdr": 12,
+      "railOprIsttCd": "UL",
+      "lnCd": "U1",
+      "stinCd": "U122",
+      "stinNm": "곤제"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "U1",
+      "routNm": "의정부",
+      "stinConsOrdr": 13,
+      "railOprIsttCd": "UL",
+      "lnCd": "U1",
+      "stinCd": "U123",
+      "stinNm": "어룡(용현산업단지)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "U1",
+      "routNm": "의정부",
+      "stinConsOrdr": 14,
+      "railOprIsttCd": "UL",
+      "lnCd": "U1",
+      "stinCd": "U124",
+      "stinNm": "송산"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "U1",
+      "routNm": "의정부",
+      "stinConsOrdr": 15,
+      "railOprIsttCd": "UL",
+      "lnCd": "U1",
+      "stinCd": "U125",
+      "stinNm": "탑석"
+    }
+  ]
+}

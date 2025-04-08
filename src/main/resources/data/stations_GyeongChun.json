@@ -1,0 +1,259 @@
+{
+  "header": {
+    "resultCnt": 25,
+    "resultCode": "00",
+    "resultMsg": "정상 처리되었습니다."
+  },
+  "body": [
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 1,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "K117",
+      "stinNm": "청량리"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 2,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "K118",
+      "stinNm": "회기"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 3,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "K119",
+      "stinNm": "중랑"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 4,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "K120",
+      "stinNm": "상봉"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 5,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "119",
+      "stinNm": "광운대"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 5,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "K121",
+      "stinNm": "망우"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 6,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "P122",
+      "stinNm": "신내"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 7,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "P123",
+      "stinNm": "갈매"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 8,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "P124",
+      "stinNm": "별내(삼육대학교)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 9,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "P125",
+      "stinNm": "퇴계원"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 10,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "P126",
+      "stinNm": "사릉"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 11,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "P127",
+      "stinNm": "금곡"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 12,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "P128",
+      "stinNm": "평내호평"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 13,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "P129",
+      "stinNm": "천마산"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 14,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "P130",
+      "stinNm": "마석"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 15,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "P131",
+      "stinNm": "대성리"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 16,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "P132",
+      "stinNm": "청평"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 17,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "P133",
+      "stinNm": "상천(호명호수)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 18,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "P134",
+      "stinNm": "가평(자라섬·남이섬)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 19,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "P135",
+      "stinNm": "굴봉산(제이드가든)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 20,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "P136",
+      "stinNm": "백양리(엘리시안강촌)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 21,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "P137",
+      "stinNm": "강촌"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 22,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "P138",
+      "stinNm": "김유정"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 23,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "P139",
+      "stinNm": "남춘천(강원대)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K2",
+      "routNm": "경춘",
+      "stinConsOrdr": 24,
+      "railOprIsttCd": "KR",
+      "lnCd": "K2",
+      "stinCd": "P140",
+      "stinNm": "춘천(한림대)"
+    }
+  ]
+}

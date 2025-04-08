@@ -1,0 +1,109 @@
+{
+  "header": {
+    "resultCnt": 10,
+    "resultCode": "00",
+    "resultMsg": "정상 처리되었습니다."
+  },
+  "body": [
+    {
+      "mreaWideCd": "01",
+      "routCd": "G1",
+      "routNm": "김포골드라인",
+      "stinConsOrdr": 1,
+      "railOprIsttCd": "GM",
+      "lnCd": "G1",
+      "stinCd": "G100",
+      "stinNm": "양촌"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "G1",
+      "routNm": "김포골드라인",
+      "stinConsOrdr": 2,
+      "railOprIsttCd": "GM",
+      "lnCd": "G1",
+      "stinCd": "G101",
+      "stinNm": "구래"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "G1",
+      "routNm": "김포골드라인",
+      "stinConsOrdr": 3,
+      "railOprIsttCd": "GM",
+      "lnCd": "G1",
+      "stinCd": "G102",
+      "stinNm": "마산"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "G1",
+      "routNm": "김포골드라인",
+      "stinConsOrdr": 4,
+      "railOprIsttCd": "GM",
+      "lnCd": "G1",
+      "stinCd": "G103",
+      "stinNm": "장기"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "G1",
+      "routNm": "김포골드라인",
+      "stinConsOrdr": 5,
+      "railOprIsttCd": "GM",
+      "lnCd": "G1",
+      "stinCd": "G104",
+      "stinNm": "운양"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "G1",
+      "routNm": "김포골드라인",
+      "stinConsOrdr": 6,
+      "railOprIsttCd": "GM",
+      "lnCd": "G1",
+      "stinCd": "G105",
+      "stinNm": "걸포북변"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "G1",
+      "routNm": "김포골드라인",
+      "stinConsOrdr": 7,
+      "railOprIsttCd": "GM",
+      "lnCd": "G1",
+      "stinCd": "G106",
+      "stinNm": "사우(김포시청)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "G1",
+      "routNm": "김포골드라인",
+      "stinConsOrdr": 8,
+      "railOprIsttCd": "GM",
+      "lnCd": "G1",
+      "stinCd": "G107",
+      "stinNm": "풍무"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "G1",
+      "routNm": "김포골드라인",
+      "stinConsOrdr": 9,
+      "railOprIsttCd": "GM",
+      "lnCd": "G1",
+      "stinCd": "G108",
+      "stinNm": "고촌"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "G1",
+      "routNm": "김포골드라인",
+      "stinConsOrdr": 10,
+      "railOprIsttCd": "GM",
+      "lnCd": "G1",
+      "stinCd": "G109",
+      "stinNm": "김포공항"
+    }
+  ]
+}

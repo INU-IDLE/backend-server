@@ -1,0 +1,139 @@
+{
+  "header": {
+    "resultCnt": 13,
+    "resultCode": "00",
+    "resultMsg": "정상 처리되었습니다."
+  },
+  "body": [
+    {
+      "mreaWideCd": "01",
+      "routCd": "UI",
+      "routNm": "우이신설",
+      "stinConsOrdr": 1,
+      "railOprIsttCd": "UI",
+      "lnCd": "UI",
+      "stinCd": "S110",
+      "stinNm": "북한산우이"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "UI",
+      "routNm": "우이신설",
+      "stinConsOrdr": 2,
+      "railOprIsttCd": "UI",
+      "lnCd": "UI",
+      "stinCd": "S111",
+      "stinNm": "솔밭공원"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "UI",
+      "routNm": "우이신설",
+      "stinConsOrdr": 3,
+      "railOprIsttCd": "UI",
+      "lnCd": "UI",
+      "stinCd": "S112",
+      "stinNm": "4.19민주묘지"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "UI",
+      "routNm": "우이신설",
+      "stinConsOrdr": 4,
+      "railOprIsttCd": "UI",
+      "lnCd": "UI",
+      "stinCd": "S113",
+      "stinNm": "가오리"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "UI",
+      "routNm": "우이신설",
+      "stinConsOrdr": 5,
+      "railOprIsttCd": "UI",
+      "lnCd": "UI",
+      "stinCd": "S114",
+      "stinNm": "화계"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "UI",
+      "routNm": "우이신설",
+      "stinConsOrdr": 6,
+      "railOprIsttCd": "UI",
+      "lnCd": "UI",
+      "stinCd": "S115",
+      "stinNm": "삼양"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "UI",
+      "routNm": "우이신설",
+      "stinConsOrdr": 7,
+      "railOprIsttCd": "UI",
+      "lnCd": "UI",
+      "stinCd": "S116",
+      "stinNm": "삼양사거리"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "UI",
+      "routNm": "우이신설",
+      "stinConsOrdr": 8,
+      "railOprIsttCd": "UI",
+      "lnCd": "UI",
+      "stinCd": "S117",
+      "stinNm": "솔샘"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "UI",
+      "routNm": "우이신설",
+      "stinConsOrdr": 9,
+      "railOprIsttCd": "UI",
+      "lnCd": "UI",
+      "stinCd": "S118",
+      "stinNm": "북한산보국문"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "UI",
+      "routNm": "우이신설",
+      "stinConsOrdr": 10,
+      "railOprIsttCd": "UI",
+      "lnCd": "UI",
+      "stinCd": "S119",
+      "stinNm": "정릉"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "UI",
+      "routNm": "우이신설",
+      "stinConsOrdr": 11,
+      "railOprIsttCd": "UI",
+      "lnCd": "UI",
+      "stinCd": "S120",
+      "stinNm": "성신여대입구"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "UI",
+      "routNm": "우이신설",
+      "stinConsOrdr": 12,
+      "railOprIsttCd": "UI",
+      "lnCd": "UI",
+      "stinCd": "S121",
+      "stinNm": "보문"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "UI",
+      "routNm": "우이신설",
+      "stinConsOrdr": 13,
+      "railOprIsttCd": "UI",
+      "lnCd": "UI",
+      "stinCd": "S122",
+      "stinNm": "신설동"
+    }
+  ]
+}

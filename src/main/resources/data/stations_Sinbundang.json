@@ -1,0 +1,169 @@
+{
+  "header": {
+    "resultCnt": 16,
+    "resultCode": "00",
+    "resultMsg": "정상 처리되었습니다."
+  },
+  "body": [
+    {
+      "mreaWideCd": "01",
+      "routCd": "D1",
+      "routNm": "신분당",
+      "stinConsOrdr": 1,
+      "railOprIsttCd": "DX",
+      "lnCd": "D1",
+      "stinCd": "D04",
+      "stinNm": "신사"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "D1",
+      "routNm": "신분당",
+      "stinConsOrdr": 2,
+      "railOprIsttCd": "DX",
+      "lnCd": "D1",
+      "stinCd": "D05",
+      "stinNm": "논현"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "D1",
+      "routNm": "신분당",
+      "stinConsOrdr": 3,
+      "railOprIsttCd": "DX",
+      "lnCd": "D1",
+      "stinCd": "D06",
+      "stinNm": "신논현"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "D1",
+      "routNm": "신분당",
+      "stinConsOrdr": 4,
+      "railOprIsttCd": "DX",
+      "lnCd": "D1",
+      "stinCd": "D07",
+      "stinNm": "강남"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "D1",
+      "routNm": "신분당",
+      "stinConsOrdr": 5,
+      "railOprIsttCd": "DX",
+      "lnCd": "D1",
+      "stinCd": "D08",
+      "stinNm": "양재(서초구청)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "D1",
+      "routNm": "신분당",
+      "stinConsOrdr": 6,
+      "railOprIsttCd": "DX",
+      "lnCd": "D1",
+      "stinCd": "D09",
+      "stinNm": "양재시민의숲(매헌)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "D1",
+      "routNm": "신분당",
+      "stinConsOrdr": 7,
+      "railOprIsttCd": "DX",
+      "lnCd": "D1",
+      "stinCd": "D10",
+      "stinNm": "청계산입구"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "D1",
+      "routNm": "신분당",
+      "stinConsOrdr": 8,
+      "railOprIsttCd": "DX",
+      "lnCd": "D1",
+      "stinCd": "D11",
+      "stinNm": "판교(판교테크노밸리)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "D1",
+      "routNm": "신분당",
+      "stinConsOrdr": 9,
+      "railOprIsttCd": "DX",
+      "lnCd": "D1",
+      "stinCd": "D12",
+      "stinNm": "정자"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "D1",
+      "routNm": "신분당",
+      "stinConsOrdr": 10,
+      "railOprIsttCd": "DX",
+      "lnCd": "D1",
+      "stinCd": "D13",
+      "stinNm": "미금(분당서울대병원)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "D1",
+      "routNm": "신분당",
+      "stinConsOrdr": 11,
+      "railOprIsttCd": "DX",
+      "lnCd": "D1",
+      "stinCd": "D14",
+      "stinNm": "동천"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "D1",
+      "routNm": "신분당",
+      "stinConsOrdr": 12,
+      "railOprIsttCd": "DX",
+      "lnCd": "D1",
+      "stinCd": "D15",
+      "stinNm": "수지구청"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "D1",
+      "routNm": "신분당",
+      "stinConsOrdr": 13,
+      "railOprIsttCd": "DX",
+      "lnCd": "D1",
+      "stinCd": "D16",
+      "stinNm": "성복"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "D1",
+      "routNm": "신분당",
+      "stinConsOrdr": 14,
+      "railOprIsttCd": "DX",
+      "lnCd": "D1",
+      "stinCd": "D17",
+      "stinNm": "상현"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "D1",
+      "routNm": "신분당",
+      "stinConsOrdr": 15,
+      "railOprIsttCd": "DX",
+      "lnCd": "D1",
+      "stinCd": "D18",
+      "stinNm": "광교중앙(아주대)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "D1",
+      "routNm": "신분당",
+      "stinConsOrdr": 16,
+      "railOprIsttCd": "DX",
+      "lnCd": "D1",
+      "stinCd": "D19",
+      "stinNm": "광교(경기대)"
+    }
+  ]
+}

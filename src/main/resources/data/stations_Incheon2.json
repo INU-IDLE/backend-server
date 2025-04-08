@@ -1,0 +1,279 @@
+{
+  "header": {
+    "resultCnt": 27,
+    "resultCode": "00",
+    "resultMsg": "정상 처리되었습니다."
+  },
+  "body": [
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 1,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I201",
+      "stinNm": "검단오류"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 2,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I202",
+      "stinNm": "왕길"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 3,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I203",
+      "stinNm": "검단사거리"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 4,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I204",
+      "stinNm": "마전"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 5,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I205",
+      "stinNm": "완정"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 6,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I206",
+      "stinNm": "독정"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 7,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I207",
+      "stinNm": "검암"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 8,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I208",
+      "stinNm": "검바위"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 9,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I209",
+      "stinNm": "아시아드경기장"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 10,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I210",
+      "stinNm": "서구청"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 11,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I211",
+      "stinNm": "가정"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 12,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I212",
+      "stinNm": "가정중앙시장"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 13,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I213",
+      "stinNm": "석남"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 14,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I214",
+      "stinNm": "서부여성회관"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 15,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I215",
+      "stinNm": "인천가좌"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 16,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I216",
+      "stinNm": "가재울"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 17,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I217",
+      "stinNm": "주안국가산단"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 18,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I218",
+      "stinNm": "주안"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 19,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I219",
+      "stinNm": "시민공원"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 20,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I220",
+      "stinNm": "석바위시장"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 21,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I221",
+      "stinNm": "인천시청"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 22,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I222",
+      "stinNm": "석천사거리"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 23,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I223",
+      "stinNm": "모래내시장"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 24,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I224",
+      "stinNm": "만수"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 25,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I225",
+      "stinNm": "남동구청"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 26,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I226",
+      "stinNm": "인천대공원"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I2",
+      "routNm": "인천2호선",
+      "stinConsOrdr": 27,
+      "railOprIsttCd": "IC",
+      "lnCd": "I2",
+      "stinCd": "I227",
+      "stinNm": "운연"
+    }
+  ]
+}

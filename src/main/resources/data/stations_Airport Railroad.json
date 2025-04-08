@@ -1,0 +1,149 @@
+{
+  "header": {
+    "resultCnt": 14,
+    "resultCode": "00",
+    "resultMsg": "정상 처리되었습니다."
+  },
+  "body": [
+    {
+      "mreaWideCd": "01",
+      "routCd": "A1",
+      "routNm": "공항",
+      "stinConsOrdr": 1,
+      "railOprIsttCd": "AR",
+      "lnCd": "A1",
+      "stinCd": "A01",
+      "stinNm": "서울역"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "A1",
+      "routNm": "공항",
+      "stinConsOrdr": 2,
+      "railOprIsttCd": "AR",
+      "lnCd": "A1",
+      "stinCd": "A02",
+      "stinNm": "공덕"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "A1",
+      "routNm": "공항",
+      "stinConsOrdr": 3,
+      "railOprIsttCd": "AR",
+      "lnCd": "A1",
+      "stinCd": "A03",
+      "stinNm": "홍대입구"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "A1",
+      "routNm": "공항",
+      "stinConsOrdr": 4,
+      "railOprIsttCd": "AR",
+      "lnCd": "A1",
+      "stinCd": "A04",
+      "stinNm": "디지털미디어시티"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "A1",
+      "routNm": "공항",
+      "stinConsOrdr": 5,
+      "railOprIsttCd": "AR",
+      "lnCd": "A1",
+      "stinCd": "A042",
+      "stinNm": "마곡나루"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "A1",
+      "routNm": "공항",
+      "stinConsOrdr": 6,
+      "railOprIsttCd": "AR",
+      "lnCd": "A1",
+      "stinCd": "A05",
+      "stinNm": "김포공항"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "A1",
+      "routNm": "공항",
+      "stinConsOrdr": 7,
+      "railOprIsttCd": "AR",
+      "lnCd": "A1",
+      "stinCd": "A06",
+      "stinNm": "계양"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "A1",
+      "routNm": "공항",
+      "stinConsOrdr": 8,
+      "railOprIsttCd": "AR",
+      "lnCd": "A1",
+      "stinCd": "A07",
+      "stinNm": "검암"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "A1",
+      "routNm": "공항",
+      "stinConsOrdr": 9,
+      "railOprIsttCd": "AR",
+      "lnCd": "A1",
+      "stinCd": "A071",
+      "stinNm": "청라국제도시"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "A1",
+      "routNm": "공항",
+      "stinConsOrdr": 10,
+      "railOprIsttCd": "AR",
+      "lnCd": "A1",
+      "stinCd": "A072",
+      "stinNm": "영종"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "A1",
+      "routNm": "공항",
+      "stinConsOrdr": 11,
+      "railOprIsttCd": "AR",
+      "lnCd": "A1",
+      "stinCd": "A08",
+      "stinNm": "운서"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "A1",
+      "routNm": "공항",
+      "stinConsOrdr": 12,
+      "railOprIsttCd": "AR",
+      "lnCd": "A1",
+      "stinCd": "A09",
+      "stinNm": "공항화물청사"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "A1",
+      "routNm": "공항",
+      "stinConsOrdr": 13,
+      "railOprIsttCd": "AR",
+      "lnCd": "A1",
+      "stinCd": "A10",
+      "stinNm": "인천공항1터미널"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "A1",
+      "routNm": "공항",
+      "stinConsOrdr": 14,
+      "railOprIsttCd": "AR",
+      "lnCd": "A1",
+      "stinCd": "A11",
+      "stinNm": "인천공항2터미널"
+    }
+  ]
+}
