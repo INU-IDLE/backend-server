@@ -2,7 +2,9 @@ package com.idle.rushcutter.service;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.idle.rushcutter.dto.PathResponseDto;
+import com.idle.rushcutter.entity.SubwayStation;
 import com.idle.rushcutter.exception.PathException;
+import com.idle.rushcutter.repository.SubwayStationRepository;
 import com.idle.rushcutter.util.OdsayApiClient;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -19,9 +21,17 @@ import java.util.stream.Collectors;
 public class PathService {
 
     private final OdsayApiClient odsayApiClient;
+    private final SubwayStationRepository stationRepository;
 
-    public PathResponseDto findRecommendedPath(String startId, String endId, String option) {
-        JsonNode result = odsayApiClient.getSubwayPath(startId, endId, option);
+    public PathResponseDto findRecommendedPath(String startNumber, String endNumber, String option) {
+        String startExternalId = stationRepository.findByNumber(startNumber)
+                .map(SubwayStation::getOdsayStationId)
+                .orElseThrow(() -> new PathException("출발역 정보를 찾을 수 없습니다."));
+        String endExternalId = stationRepository.findByNumber(endNumber)
+                .map(SubwayStation::getOdsayStationId)
+                .orElseThrow(() -> new PathException("도착역 정보를 찾을 수 없습니다."));
+
+        JsonNode result = odsayApiClient.getSubwayPath(startExternalId, endExternalId, option);
 
         if (result == null || !result.has("globalStartName")) { // Check for null or missing data
             throw new PathException("Invalid path data received from API.");

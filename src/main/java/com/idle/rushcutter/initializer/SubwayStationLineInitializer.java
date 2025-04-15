@@ -15,7 +15,6 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.stereotype.Component;
 
 import java.io.InputStream;
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -49,6 +48,7 @@ public class SubwayStationLineInitializer {
 
                     for (JsonNode stationNode : sortedStations) {
                         String number = stationNode.get("stinCd").asText();
+                        String lnCd = stationNode.get("lnCd").asText();
                         String name = stationNode.get("stinNm").asText();
                         String lineName = stationNode.get("routNm").asText();
 
@@ -56,10 +56,10 @@ public class SubwayStationLineInitializer {
                                 .orElseGet(() -> stationRepository.save(
                                         SubwayStation.builder()
                                                 .number(number)
+                                                .lineCode(lnCd)
                                                 .name(name)
+                                                .odsayStationId(number)
                                                 .transferAvailable(true)
-                                                .createdAt(LocalDateTime.now())
-                                                .updatedAt(LocalDateTime.now())
                                                 .build()
                                 ));
 
@@ -67,6 +67,7 @@ public class SubwayStationLineInitializer {
                                 .orElseGet(() -> lineRepository.save(
                                         SubwayLine.builder()
                                                 .name(lineName)
+                                                .lineCode(lnCd)
                                                 .build()
                                 ));
 

@@ -12,15 +12,17 @@ public class SubwayInitializerRunner {
 
     private final SubwayStationLineInitializer stationLineInitializer;
     private final SubwayEdgeInitializer edgeInitializer;
+    private final ODsayStationMappingInitializer odsayStationMappingInitializer;
 
     @PostConstruct
     public void runInitializers() {
-        log.info("[INITIALIZER] SubwayStationLineInitializer 시작");
         stationLineInitializer.initialize();
         log.info("[INITIALIZER] SubwayStationLineInitializer 완료");
 
-        log.info("[INITIALIZER] SubwayEdgeInitializer 시작");
         edgeInitializer.initialize();
         log.info("[INITIALIZER] SubwayEdgeInitializer 완료");
+
+        odsayStationMappingInitializer.initialize();
+        log.info("[INITIALIZER] ODsayStationMappingInitializer 완료");
     }
 }

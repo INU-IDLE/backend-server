@@ -3,11 +3,15 @@ package com.idle.rushcutter.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 @Entity
-@Table(name = "stations")
+@Table(
+        name = "stations",
+        uniqueConstraints = {
+                @UniqueConstraint(columnNames = {"number", "lnCd"})
+        }
+)
 @Getter
 @Setter
 @NoArgsConstructor
@@ -19,23 +23,20 @@ public class SubwayStation {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "number", unique = true, nullable = false)
+    @Column(name = "number", nullable = false)
     private String number;
+
+    @Column(name = "code", nullable = false)
+    private String lineCode;
 
     @Column(nullable = false)
     private String name;
 
-    @Column(name = "operator_code")
-    private String operatorCode;
-
-    private Double latitude;
-    private Double longitude;
+    @Column(name = "odsay_station_id", unique = true)
+    private String odsayStationId;
 
     @Builder.Default
     private Boolean transferAvailable = false;
-
-    private LocalDateTime createdAt = LocalDateTime.now();
-    private LocalDateTime updatedAt = LocalDateTime.now();
 
     @OneToMany(mappedBy = "station")
     private List<SubwayStationLine> stationLines;

@@ -7,4 +7,5 @@ import java.util.Optional;
 
 public interface SubwayStationRepository extends JpaRepository<SubwayStation, Long> {
     Optional<SubwayStation> findByNumber(String number);
+    Optional<SubwayStation> findByNumberAndLineCode(String number, String lineCode);
 }
