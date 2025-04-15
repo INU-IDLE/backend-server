@@ -37,6 +37,7 @@ dependencies {
 	testImplementation("org.testcontainers:postgresql")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 	implementation ("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0")
+	implementation("org.apache.httpcomponents.client5:httpclient5:5.3")
 }
 
 tasks.withType<Test> {
