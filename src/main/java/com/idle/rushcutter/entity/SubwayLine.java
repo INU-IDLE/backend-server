@@ -23,6 +23,9 @@ public class SubwayLine {
 
     private String color;
 
+    @Column(unique = true, nullable = false)
+    private String lineCode;
+
     @OneToMany(mappedBy = "line")
     private List<SubwayStationLine> stationLines;
 }
