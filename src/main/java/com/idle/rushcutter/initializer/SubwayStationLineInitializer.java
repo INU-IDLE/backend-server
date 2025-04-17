@@ -18,6 +18,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
 
 @Component
 @RequiredArgsConstructor
@@ -52,8 +53,13 @@ public class SubwayStationLineInitializer {
                         String name = stationNode.get("stinNm").asText();
                         String lineName = stationNode.get("routNm").asText();
 
-                        SubwayStation station = stationRepository.findByNumber(number)
-                                .orElseGet(() -> stationRepository.save(
+                        Optional<SubwayStation> stationOpt = stationRepository.findByNumberAndLineCode(number, lnCd);
+                        SubwayStation station;
+                        if (stationOpt.isPresent()) {
+                            station = stationOpt.get();
+                        } else {
+                            try {
+                                station = stationRepository.save(
                                         SubwayStation.builder()
                                                 .number(number)
                                                 .lineCode(lnCd)
@@ -61,7 +67,12 @@ public class SubwayStationLineInitializer {
                                                 .odsayStationId(number)
                                                 .transferAvailable(true)
                                                 .build()
-                                ));
+                                );
+                            } catch (Exception e) {
+                                log.warn("[중복으로 인해 INSERT 실패] 역번호={}, 코드={}, 이름={}", number, lnCd, name);
+                                continue;
+                            }
+                        }
 
                         SubwayLine line = lineRepository.findByName(lineName)
                                 .orElseGet(() -> lineRepository.save(

@@ -32,7 +32,7 @@ public class SubwayStation {
     @Column(nullable = false)
     private String name;
 
-    @Column(name = "odsay_station_id", unique = true)
+    @Column(name = "odsay_station_id")
     private String odsayStationId;
 
     @Builder.Default
