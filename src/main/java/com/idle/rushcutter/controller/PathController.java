@@ -1,6 +1,6 @@
 package com.idle.rushcutter.controller;
 
-import com.idle.rushcutter.dto.PathResponseDto;
+import com.idle.rushcutter.dto.path.PathResponseDto;
 import com.idle.rushcutter.service.PathService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;

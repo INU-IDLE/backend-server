@@ -1,7 +1,7 @@
 package com.idle.rushcutter.service;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.idle.rushcutter.dto.PathResponseDto;
+import com.idle.rushcutter.dto.path.PathResponseDto;
 import com.idle.rushcutter.entity.SubwayStation;
 import com.idle.rushcutter.exception.PathException;
 import com.idle.rushcutter.repository.SubwayStationRepository;

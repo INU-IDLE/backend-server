@@ -13,8 +13,19 @@ import java.util.Arrays;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
+    @ExceptionHandler(Exception.class)
+    public ResponseEntity<Map<String, String>> handleOther(Exception e) {
+        log.error("[예기치 못한 예외 발생] message={}, stackTrace={}", e.getMessage(), Arrays.toString(e.getStackTrace()));
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                .body(Map.of(
+                        "message", "예기치 못한 오류가 발생했습니다.",
+                        "result", "null"
+                ));
+    }
+
     @ExceptionHandler(PathException.class)
     public ResponseEntity<Map<String, String>> handlePathException(PathException e) {
+        log.warn("[경로 탐색 오류] message={}", e.getMessage());
         HttpStatus status = e.getHttpStatus();
         return ResponseEntity
                 .status(status)
@@ -24,12 +35,13 @@ public class GlobalExceptionHandler {
                 ));
     }
 
-    @ExceptionHandler(Exception.class)
-    public ResponseEntity<Map<String, String>> handleOther(Exception e) {
-        log.error("[예기치 못한 예외 발생] message={}, stackTrace={}", e.getMessage(), Arrays.toString(e.getStackTrace()));
-        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+    @ExceptionHandler(StationException.class)
+    public ResponseEntity<Map<String, String>> handleStationException(StationException e) {
+        log.warn("[역 오류] message={}", e.getMessage());
+        return ResponseEntity
+                .status(e.getHttpStatus())
                 .body(Map.of(
-                        "message", "예기치 못한 오류가 발생했습니다.",
+                        "message", e.getMessage(),
                         "result", "null"
                 ));
     }
