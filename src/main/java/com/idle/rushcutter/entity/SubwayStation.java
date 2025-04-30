@@ -35,6 +35,9 @@ public class SubwayStation {
     @Column(name = "odsay_station_id")
     private String odsayStationId;
 
+    @Column(name = "data_gov_station_id")
+    private String dataGovStationId;
+
     @Builder.Default
     private Boolean transferAvailable = false;
 
