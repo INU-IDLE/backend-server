@@ -1,4 +1,4 @@
-package com.idle.rushcutter.dto;
+package com.idle.rushcutter.dto.path;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

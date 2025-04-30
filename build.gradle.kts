@@ -38,6 +38,7 @@ dependencies {
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 	implementation ("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0")
 	implementation("org.apache.httpcomponents.client5:httpclient5:5.3")
+	implementation("com.opencsv:opencsv:5.7.1")
 }
 
 tasks.withType<Test> {

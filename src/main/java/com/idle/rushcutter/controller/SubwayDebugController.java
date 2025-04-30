@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api/debug")
+@RequestMapping("/api/v1/debug")
 public class SubwayDebugController {
 
     private final SubwayStationRepository stationRepository;
