@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 @RestController
@@ -28,10 +29,10 @@ public class PathController {
             @RequestParam("end") String endId
     ) {
         PathResponseDto path = pathService.findRecommendedPath(startId, endId, "1");
-        return ResponseEntity.ok(Map.of(
-                "message", "최단 경로 탐색이 완료되었습니다.",
-                "result", path
-        ));
+        Map<String, Object> result = new LinkedHashMap<>();
+        result.put("message", "최단 경로 탐색이 완료되었습니다.");
+        result.put("result", path);
+        return ResponseEntity.ok(result);
     }
 
 
@@ -42,9 +43,9 @@ public class PathController {
             @RequestParam("end") String endId
     ) {
         PathResponseDto path = pathService.findRecommendedPath(startId, endId, "2");
-        return ResponseEntity.ok(Map.of(
-                "message", "최소 환승 경로 탐색이 완료되었습니다.",
-                "result", path
-        ));
+        Map<String, Object> result = new LinkedHashMap<>();
+        result.put("message", "최소 환승 경로 탐색이 완료되었습니다.");
+        result.put("result", path);
+        return ResponseEntity.ok(result);
     }
 }

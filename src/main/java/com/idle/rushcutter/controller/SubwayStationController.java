@@ -8,6 +8,9 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 @RestController
 @RequestMapping("/api/v1/stations")
 @RequiredArgsConstructor
@@ -18,14 +21,14 @@ public class SubwayStationController {
 
     @GetMapping("/{stationNumber}/timetable")
     @Operation(summary = "역 시간표 조회", description = "역의 시간표를 조회합니다. (상/하행, 일반/급행/특급, 평일/토요일/공휴일)")
-    public ResponseEntity<java.util.Map<String, Object>> getTimetable(
+    public ResponseEntity<Map<String, Object>> getTimetable(
             @PathVariable String stationNumber,
             @RequestParam String lineCode
     ) {
         TimetableResponseDto response = subwayStationService.getTimetable(stationNumber, lineCode);
-        return ResponseEntity.ok(java.util.Map.of(
-                "message", "시간표 조회를 성공했습니다.",
-                "result", response
-        ));
+        Map<String, Object> result = new LinkedHashMap<>();
+        result.put("message", "시간표 조회에 성공했습니다.");
+        result.put("result", response);
+        return ResponseEntity.ok(result);
     }
 }
