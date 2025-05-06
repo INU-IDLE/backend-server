@@ -12,6 +12,8 @@ import java.util.List;
 public class TimetableResponseDto {
     private String stationName;
     private String lineCode;
+    private String prevStationName;
+    private String nextStationName;
     private List<TimetableEntryDto> up;
     private List<TimetableEntryDto> down;
 }
