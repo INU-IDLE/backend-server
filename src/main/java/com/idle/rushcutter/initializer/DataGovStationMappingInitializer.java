@@ -23,7 +23,7 @@ public class DataGovStationMappingInitializer {
     private final SubwayStationRepository stationRepository;
 
     public void initialize() {
-        Path path = Paths.get("src/main/resources/mapping/서울교통공사_역명 지하철역 검색.csv");
+        Path path = Paths.get("src/main/resources/mapping/seoulmetro_stations.csv");
         try (BufferedReader reader = Files.newBufferedReader(path, Charset.forName("EUC-KR"))) {
             CSVReader csvReader = new CSVReaderBuilder(reader).withSkipLines(1).build();
             String[] line;
