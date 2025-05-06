@@ -4,11 +4,14 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.idle.rushcutter.dto.congestion.CongestionResponseDto;
 import com.idle.rushcutter.enums.CongestionLevel;
+import com.idle.rushcutter.exception.CongestionException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpMethod;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.ResourceAccessException;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
@@ -26,8 +29,8 @@ public class CongestionService {
     private final RestTemplate restTemplate = new RestTemplate();
 
     public CongestionResponseDto getPredictedCongestion(int stationCode, int line, String updnLine, LocalDateTime dateTime, String dayType) {
-        if (line < 2 || line > 9) {
-            throw new IllegalArgumentException("혼잡도 예측은 2~9호선만 지원합니다.");
+        if (line < 2 || line > 8) {
+            throw new CongestionException("현재 혼잡도 예측은 2~8호선만 지원됩니다.", HttpStatus.BAD_REQUEST);
         }
 
         String url = UriComponentsBuilder.fromHttpUrl(congestionApiBaseUrl + "/api/v1/congestion/real-time/car/" + stationCode)
@@ -38,7 +41,12 @@ public class CongestionService {
                 .queryParam("month", dateTime.getMonthValue())
                 .toUriString();
 
-        ResponseEntity<String> response = restTemplate.exchange(url, HttpMethod.GET, null, String.class);
+        ResponseEntity<String> response;
+        try {
+            response = restTemplate.exchange(url, HttpMethod.GET, null, String.class);
+        } catch (ResourceAccessException e) {
+            throw new CongestionException("혼잡도 예측 서버에 연결할 수 없습니다.", HttpStatus.INTERNAL_SERVER_ERROR);
+        }
 
         ObjectMapper objectMapper = new ObjectMapper();
         Map<String, CongestionLevel> predictions = new HashMap<>();
@@ -63,7 +71,7 @@ public class CongestionService {
                     predictions
             );
         } catch (Exception e) {
-            throw new RuntimeException("혼잡도 예측 결과 처리 중 오류 발생", e);
+            throw new CongestionException("혼잡도 예측 결과 처리 중 오류 발생", HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 }
