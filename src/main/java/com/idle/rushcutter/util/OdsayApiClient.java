@@ -53,14 +53,37 @@ public class OdsayApiClient {
 
     public TimetableResponseDto getTimetable(String odsayStationId, String stationName, String lineCode) {
         try {
+            // Fetch timetable lists
             List<TimetableEntryDto> up = fetchTimetable(odsayStationId, 1);
             List<TimetableEntryDto> down = fetchTimetable(odsayStationId, 2);
+
+            // Fetch prev/next station names from ODsay API
+            String url = String.format(
+                "https://api.odsay.com/v1/api/subwayStationInfo?apiKey=%s&stationID=%s&lang=0",
+                URLEncoder.encode(apiKey, StandardCharsets.UTF_8),
+                URLEncoder.encode(odsayStationId, StandardCharsets.UTF_8)
+            );
+            URI uri = new URI(url);
+            RestTemplate restTemplate = new RestTemplate();
+            ResponseEntity<String> response = restTemplate.getForEntity(uri, String.class);
+            ObjectMapper mapper = new ObjectMapper();
+            JsonNode root = mapper.readTree(response.getBody());
+            JsonNode resultNode = root.path("result");
+            JsonNode prevStation = resultNode.path("prevOBJ").path("station");
+            JsonNode nextStation = resultNode.path("nextOBJ").path("station");
+
+            String prevStationName = prevStation.isArray() && prevStation.size() > 0
+                ? prevStation.get(0).path("stationName").asText() : null;
+            String nextStationName = nextStation.isArray() && nextStation.size() > 0
+                ? nextStation.get(0).path("stationName").asText() : null;
 
             return TimetableResponseDto.builder()
                     .stationName(stationName)
                     .lineCode(lineCode)
                     .up(up)
                     .down(down)
+                    .prevStationName(prevStationName)
+                    .nextStationName(nextStationName)
                     .build();
         } catch (Exception e) {
             throw new StationException("ODsay API 시간표 요청 실패: " + e.getMessage(), e);
