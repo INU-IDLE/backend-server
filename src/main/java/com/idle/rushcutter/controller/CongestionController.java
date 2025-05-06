@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/api/v1/congestion/real-time")
+@RequestMapping("/api/v1/congestion/")
 @RequiredArgsConstructor
 public class CongestionController {
 
@@ -42,3 +42,5 @@ public class CongestionController {
         );
     }
 }
+
+// TODO: CSV 파일 오류 해결하고 엔드포인트 정리해서 같이 커밋하기
