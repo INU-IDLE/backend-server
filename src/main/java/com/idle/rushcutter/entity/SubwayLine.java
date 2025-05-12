@@ -26,6 +26,9 @@ public class SubwayLine {
     @Column(unique = true, nullable = false)
     private String lineCode;
 
+    @Column(name = "seoul_line_id")
+    private String seoulLineId;
+
     @OneToMany(mappedBy = "line")
     private List<SubwayStationLine> stationLines;
 }
