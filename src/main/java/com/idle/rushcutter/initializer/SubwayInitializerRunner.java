@@ -14,6 +14,7 @@ public class SubwayInitializerRunner {
     private final SubwayEdgeInitializer edgeInitializer;
     private final ODsayStationMappingInitializer odsayStationMappingInitializer;
     private final DataGovStationMappingInitializer dataGovStationMappingInitializer;
+    private final DataSeoulSubwayLineInitializer dataSeoulSubwayLineInitializer;
 
     @PostConstruct
     public void runInitializers() {
@@ -28,5 +29,8 @@ public class SubwayInitializerRunner {
 
         dataGovStationMappingInitializer.initialize();
         log.info("[INITIALIZER] DataGovStationMappingInitializer 완료");
+
+        dataSeoulSubwayLineInitializer.initializeSeoulLineIds();
+        log.info("[INITIALIZER] DataSeoulSubwayLineInitializer 완료");
     }
 }

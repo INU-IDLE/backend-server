@@ -61,7 +61,7 @@ public class GlobalExceptionHandler {
     public ResponseEntity<Map<String, Object>> handleTrainException(TrainException e) {
         log.warn("[열차 위치 오류] message={}", e.getMessage());
         return ResponseEntity
-                .status(HttpStatus.BAD_REQUEST)
+                .status(HttpStatus.NOT_FOUND)
                 .body(Map.of(
                         "message", e.getMessage(),
                         "result", "null"
