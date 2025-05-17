@@ -90,6 +90,7 @@ public class SubwayStationLineInitializer {
                                 .build();
 
                         stationLineRepository.save(stationLine);
+                        log.info("[삽입 성공] 역={}, 노선={}, 역코드={}", name, lineName, number);
                         inserted++;
                     }
                 }

@@ -127,8 +127,10 @@ public class SubwayEdgeInitializer {
     }
 
     private void connectIfPresent(String fromCode, String toCode, SubwayLine line) {
-        Optional<SubwayStation> fromOpt = stationRepository.findByNumber(fromCode);
-        Optional<SubwayStation> toOpt = stationRepository.findByNumber(toCode);
+        log.debug("Trying to find station by number and lineCode: fromCode={}, lineCode={}, toCode={}, lineCode={}", fromCode, line.getLineCode(), toCode, line.getLineCode());
+        Optional<SubwayStation> fromOpt = stationRepository.findByNumberAndLineCode(fromCode, line.getLineCode());
+        Optional<SubwayStation> toOpt = stationRepository.findByNumberAndLineCode(toCode, line.getLineCode());
+        log.debug("Result of findByNumberAndLineCode - fromOpt: {}, toOpt: {}", fromOpt, toOpt);
 
         if (fromOpt.isPresent() && toOpt.isPresent()) {
             edgeRepository.save(SubwayStationEdge.builder()
@@ -154,10 +156,15 @@ public class SubwayEdgeInitializer {
             String currentNum = current.get("stinCd").asText();
             String nextNum = next.get("stinCd").asText();
 
+            log.debug("Attempting edge creation between currentNum={} and nextNum={}", currentNum, nextNum);
+
             if (!isValidSequentialConnection(current, next)) continue;
 
-            Optional<SubwayStation> fromOpt = stationRepository.findByNumber(currentNum);
-            Optional<SubwayStation> toOpt = stationRepository.findByNumber(nextNum);
+            log.debug("Finding stations by number and lineCode: currentNum={}, lineCode={}, nextNum={}, lineCode={}", currentNum, line.getLineCode(), nextNum, line.getLineCode());
+            Optional<SubwayStation> fromOpt = stationRepository.findByNumberAndLineCode(currentNum, line.getLineCode());
+            Optional<SubwayStation> toOpt = stationRepository.findByNumberAndLineCode(nextNum, line.getLineCode());
+
+            log.debug("Result of findByNumberAndLineCode - from: {}, to: {}", fromOpt, toOpt);
 
             if (fromOpt.isEmpty() || toOpt.isEmpty()) continue;
 
