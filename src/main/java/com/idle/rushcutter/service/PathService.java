@@ -5,6 +5,7 @@ import com.idle.rushcutter.dto.path.PathResponseDto;
 import com.idle.rushcutter.entity.SubwayStation;
 import com.idle.rushcutter.exception.PathException;
 import com.idle.rushcutter.repository.SubwayStationRepository;
+import com.idle.rushcutter.util.ODsayLineNameNormalizer;
 import com.idle.rushcutter.util.OdsayApiClient;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -48,12 +49,31 @@ public class PathService {
         List<PathResponseDto.DriveInfo> driveList = new ArrayList<>();
         for (JsonNode drive : result.get("driveInfoSet").get("driveInfo")) {
             PathResponseDto.DriveInfo d = new PathResponseDto.DriveInfo();
-            d.setLaneName(drive.get("laneName").asText());
-            d.setStartName(drive.get("startName").asText());
-            d.setStationCount(drive.get("stationCount").asInt());
+            String laneName = drive.get("laneName").asText();
+            log.info("Raw laneName from ODsay: {}, for segment startName: {}", laneName, drive.get("startName").asText());
+            String startName = drive.get("startName").asText();
+            String startId = null;
+            for (JsonNode station : result.get("stationSet").get("stations")) {
+                if (station.get("startName").asText().equals(startName)) {
+                    startId = station.get("startID").asText();
+                    break;
+                }
+            }
+            if (startId == null) {
+                log.warn("Could not find startID for segment starting at {}", startName);
+                startId = "0"; // fallback to avoid NumberFormatException
+            }
+            log.info("Using startID for normalization: {}", startId);
+            String normalizedLaneName = ODsayLineNameNormalizer.normalize(laneName, startId);
+            log.info("Normalized lane: {} → {}", laneName, normalizedLaneName);
+            d.setLaneName(normalizedLaneName);
             if (drive.has("wayName") && !drive.get("wayName").isNull()) {
                 d.setWayName(drive.get("wayName").asText());
+                d.setDirection(com.idle.rushcutter.enums.DirectionResolver.resolve(normalizedLaneName, d.getWayName()));
+                log.info("Resolved direction for {} ({}): {}", normalizedLaneName, d.getWayName(), d.getDirection());
             }
+            d.setStartName(drive.get("startName").asText());
+            d.setStationCount(drive.get("stationCount").asInt());
             driveList.add(d);
         }
 
@@ -61,8 +81,23 @@ public class PathService {
         List<PathResponseDto.ExchangeInfo> exchangeList = new ArrayList<>();
         if (result.has("exChangeInfoSet")) {
             for (JsonNode ex : result.get("exChangeInfoSet").get("exChangeInfo")) {
+                log.info("Exchange exSID (used for normalization): {}", ex.get("exSID").asInt());
                 PathResponseDto.ExchangeInfo e = new PathResponseDto.ExchangeInfo();
-                e.setLaneName(ex.get("laneName").asText());
+                String rawLaneName = ex.get("laneName").asText();
+                String exStartId = null;
+                for (JsonNode station : result.get("stationSet").get("stations")) {
+                    if (station.get("startName").asText().equals(ex.get("startName").asText())) {
+                        exStartId = station.get("startID").asText();
+                        break;
+                    }
+                }
+                if (exStartId == null) {
+                    exStartId = String.valueOf(ex.get("exSID").asInt());
+                }
+                log.info("Using exStartID for normalization: {}", exStartId);
+                String normalized = ODsayLineNameNormalizer.normalize(rawLaneName, exStartId);
+                log.info("Exchange normalized lane: {} → {}", rawLaneName, normalized);
+                e.setLaneName(normalized);
                 e.setStartName(ex.get("startName").asText());
                 e.setExName(ex.get("exName").asText());
                 e.setExSID(ex.get("exSID").asInt());
