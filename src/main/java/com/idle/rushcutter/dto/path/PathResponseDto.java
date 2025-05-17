@@ -27,6 +27,7 @@ public class PathResponseDto {
         private String startName;
         private int stationCount;
         private String wayName;
+        private String direction;
     }
 
     @Getter
