@@ -1,6 +1,5 @@
 package com.idle.rushcutter.dto.congestion;
 
-import com.idle.rushcutter.enums.CongestionLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -19,5 +18,5 @@ public class CongestionResponseDto {
     private String updnLine;
     private String dayType;
     private int line;
-    private Map<String, CongestionLevel> predictions;
+    private Map<String, CongestionInfo> predictions;
 }
