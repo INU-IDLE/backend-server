@@ -287,14 +287,14 @@
     { "internalCode": "I217", "externalCode": "20226" },
     { "internalCode": "I218", "externalCode": "20227" },
     { "internalCode": "I219", "externalCode": "20228" },
-    { "internalCode": "I220", "externalCode": "20230" },
-    { "internalCode": "I221", "externalCode": "20231" },
-    { "internalCode": "I222", "externalCode": "20232" },
-    { "internalCode": "I223", "externalCode": "20233" },
-    { "internalCode": "I224", "externalCode": "20234" },
-    { "internalCode": "I225", "externalCode": "20235" },
-    { "internalCode": "I226", "externalCode": "20236" },
-    { "internalCode": "I227", "externalCode": "20237" }
+    { "internalCode": "I220", "externalCode": "20229" },
+    { "internalCode": "I221", "externalCode": "20230" },
+    { "internalCode": "I222", "externalCode": "20231" },
+    { "internalCode": "I223", "externalCode": "20232" },
+    { "internalCode": "I224", "externalCode": "20233" },
+    { "internalCode": "I225", "externalCode": "20234" },
+    { "internalCode": "I226", "externalCode": "20235" },
+    { "internalCode": "I227", "externalCode": "20236" }
   ],
   "신림선": [
     { "internalCode": "S401", "externalCode": "11711" },
