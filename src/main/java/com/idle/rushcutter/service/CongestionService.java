@@ -2,6 +2,7 @@ package com.idle.rushcutter.service;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.idle.rushcutter.dto.congestion.CongestionInfo;
 import com.idle.rushcutter.dto.congestion.CongestionResponseDto;
 import com.idle.rushcutter.enums.CongestionLevel;
 import com.idle.rushcutter.exception.CongestionException;
@@ -49,7 +50,7 @@ public class CongestionService {
         }
 
         ObjectMapper objectMapper = new ObjectMapper();
-        Map<String, CongestionLevel> predictions = new HashMap<>();
+        Map<String, CongestionInfo> predictions = new HashMap<>();
         try {
             JsonNode root = objectMapper.readTree(response.getBody());
             JsonNode predNode = root.get("predictions");
@@ -58,7 +59,7 @@ public class CongestionService {
                 String key = "car_" + i;
                 if (predNode.has(key)) {
                     double percent = predNode.get(key).asDouble();
-                    predictions.put(key, CongestionLevel.fromPercentage(percent));
+                    predictions.put(key, new CongestionInfo(CongestionLevel.fromPercentage(percent), percent));
                 }
             }
 
