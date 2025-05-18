@@ -20,9 +20,9 @@ public class CongestionController {
     @PostMapping("predict/{stationCode}")
     @Operation(summary = "객차별 예측 혼잡도 조회", description = "특정 지하철역에 대해 지정 시각 기준 열차 칸별 혼잡도 예측 정보를 제공합니다.")
     public ResponseEntity<?> getRealTimeCarCongestion(
-            @PathVariable("stationCode") int stationCode,
+            @PathVariable("stationCode") String stationCode,
             @RequestParam("line") int line,
-            @RequestParam("updnLine") String updnLine,
+            @RequestParam("updnLine") int updnLine,
             @RequestParam("hour") int hour,
             @RequestParam("minute") int minute,
             @RequestParam("dayType") String dayType,
@@ -30,6 +30,8 @@ public class CongestionController {
     ) {
         LocalDateTime now = LocalDateTime.now();
         LocalDateTime dateTime = now.withMonth(month).withHour(hour).withMinute(minute).withSecond(0).withNano(0);
+
+        dayType = java.net.URLDecoder.decode(dayType, java.nio.charset.StandardCharsets.UTF_8);
 
         CongestionResponseDto response = congestionService.getPredictedCongestion(
                 stationCode, line, updnLine, dateTime, dayType

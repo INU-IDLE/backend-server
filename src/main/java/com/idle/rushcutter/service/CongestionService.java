@@ -40,18 +40,31 @@ public class CongestionService {
     private final RedisTemplate<String, String> redisTemplate;
     private final ObjectMapper objectMapper;
 
-    public CongestionResponseDto getPredictedCongestion(int stationCode, int line, String updnLine, LocalDateTime dateTime, String dayType) {
+    public CongestionResponseDto getPredictedCongestion(String stationCode, int line, int updnLine, LocalDateTime dateTime, String dayType) {
         if (line < 2 || line > 8) {
             throw new CongestionException("현재 혼잡도 예측은 2~8호선만 지원됩니다.", HttpStatus.BAD_REQUEST);
         }
 
-        String url = UriComponentsBuilder.fromHttpUrl(congestionApiBaseUrl + "/api/v1/congestion/real-time/car/" + stationCode)
-                .queryParam("line", line)
-                .queryParam("updnLine", updnLine)
-                .queryParam("time_slot", String.format("%02d%02d", dateTime.getHour(), dateTime.getMinute()))
-                .queryParam("weekday_type", dayType)
-                .queryParam("month", dateTime.getMonthValue())
-                .toUriString();
+        log.info("dayType raw value: {}", dayType);
+        String url = String.format(
+                "%s/api/v1/congestion/real-time/car/%s?line=%d&updnLine=%d&time_slot=%s&weekday_type=%s&month=%d",
+                congestionApiBaseUrl,
+                stationCode,
+                line,
+                updnLine,
+                String.format("%02d%02d", dateTime.getHour(), dateTime.getMinute()),
+                dayType,
+                dateTime.getMonthValue()
+        );
+
+        log.info("[ML 서버 요청 디버깅] Request URL: {}", url);
+        log.info("[ML 서버 요청 디버깅] stationCode={}, timeSlot={}, updnLine={}, dayType={}, line={}, month={}",
+            stationCode,
+            String.format("%02d%02d", dateTime.getHour(), dateTime.getMinute()),
+            updnLine,
+            dayType,
+            line,
+            dateTime.getMonthValue());
 
         ResponseEntity<String> response;
         try {

@@ -13,9 +13,9 @@ import java.util.Map;
 @NoArgsConstructor
 @AllArgsConstructor
 public class CongestionResponseDto {
-    private int station;
+    private String station;
     private LocalDateTime dateTime;
-    private String updnLine;
+    private int updnLine;
     private String dayType;
     private int line;
     private Map<String, CongestionInfo> predictions;
