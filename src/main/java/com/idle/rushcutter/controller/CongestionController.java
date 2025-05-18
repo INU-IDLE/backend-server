@@ -3,6 +3,7 @@ package com.idle.rushcutter.controller;
 import com.idle.rushcutter.dto.congestion.CongestionResponseDto;
 import com.idle.rushcutter.service.CongestionService;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -13,6 +14,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/v1/congestion/")
 @RequiredArgsConstructor
+@Tag(name = "Congestion API", description = "혼잡도 조회 API")
 public class CongestionController {
 
     private final CongestionService congestionService;
