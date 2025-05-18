@@ -41,4 +41,18 @@ public class CongestionController {
                 )
         );
     }
+
+    @GetMapping("real-time/{lineName}/{trainNumber}")
+    @Operation(summary = "실시간 열차 칸별 혼잡도 조회", description = "지정한 노선 및 열차 번호에 대한 실시간 칸별 혼잡도 정보를 조회합니다.")
+    public ResponseEntity<?> getRealTimeCongestion(
+            @PathVariable("lineName") String lineName,
+            @PathVariable("trainNumber") String trainNumber
+    ) {
+        return ResponseEntity.ok().body(
+                Map.of(
+                        "message", "혼잡도 조회 성공",
+                        "result", congestionService.getRealTimeCongestion(lineName, trainNumber)
+                )
+        );
+    }
 }

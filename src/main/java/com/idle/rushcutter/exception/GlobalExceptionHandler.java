@@ -47,13 +47,13 @@ public class GlobalExceptionHandler {
     }
 
     @ExceptionHandler(CongestionException.class)
-    public ResponseEntity<Map<String, String>> handleCongestionException(CongestionException e) {
+    public ResponseEntity<Map<String, Object>> handleCongestionException(CongestionException e) {
         log.warn("[혼잡도 예측 오류] message={}", e.getMessage());
         return ResponseEntity
                 .status(e.getHttpStatus())
                 .body(Map.of(
-                        "message", e.getMessage(),
-                        "result", "null"
+                        "code", e.getCode(),
+                        "message", e.getResponseMessage()
                 ));
     }
 
