@@ -111,7 +111,7 @@ public class TrainService {
             }
 
             String url = String.format(
-                    "http://swopenAPI.seoul.go.kr/api/subway/%s/json/realtimeStationArrival/1/100/%s",
+                    "http://swopenAPI.seoul.go.kr/api/subway/%s/json/realtimeStationArrival/1/500/%s",
                     apiKey, decodedStationName
             );
 
@@ -138,13 +138,12 @@ public class TrainService {
                 if (!subwayIdFilter.equals(item.path("subwayId").asText())) continue;
 
                 String trainNo = item.path("btrainNo").asText();
-                String statnNm = item.path("statnNm").asText();
                 String statnTnm = item.path("bstatnNm").asText();
-                String recptnDt = item.path("recptnDt").asText();
                 String trainLineNm = item.path("trainLineNm").asText();
-
-                String direction = "0".equals(item.path("updnLine").asText()) ? "상행" : "하행";
+                String direction = item.path("updnLine").asText();
                 String expressType = item.path("btrainSttus").asText();
+                String arrivalTime = item.path("arvlMsg2").asText();
+                String trainPositon = item.path("arvlMsg3").asText();
                 String status = switch (item.path("arvlCd").asInt()) {
                     case 0 -> "진입";
                     case 1 -> "도착";
@@ -157,7 +156,9 @@ public class TrainService {
                 };
                 boolean isLastTrain = "1".equals(item.path("lstcarAt").asText());
 
-                arrivals.add(new ArrivalDto(trainNo, direction, statnTnm, trainLineNm, expressType, status, isLastTrain));
+                arrivals.add(new ArrivalDto(
+                        trainNo, direction, statnTnm, trainLineNm, expressType, arrivalTime,
+                        trainPositon, status, isLastTrain));
             }
 
             return new ArrivalResponseDto("도착 정보 조회 성공", arrivals);

@@ -8,8 +8,10 @@ public record ArrivalDto(
         String trainNo,
         String direction,
         String destination,
-        String arrivalMessage,
+        String destinationWithDirection,
         String trainType,
+        String arrivalTime,
+        String trainPosition,
         String status,
         boolean isLastTrain
 ) {
@@ -20,6 +22,8 @@ public record ArrivalDto(
                 node.path("bstatnNm").asText(),
                 node.path("arvlMsg3").asText(),
                 node.path("btrainSttus").asText(),
+                node.path("arrivalTime").asText(),
+                node.path("trainPositon").asText(),
                 mapArrivalCode(node.path("arvlCd").asText()),
                 "1".equals(node.path("lstcarAt").asText())
         );
