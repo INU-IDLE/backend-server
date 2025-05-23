@@ -14,6 +14,7 @@ public class TimetableResponseDto {
     private String lineCode;
     private String prevStationName;
     private String nextStationName;
-    private List<TimetableEntryDto> up;
-    private List<TimetableEntryDto> down;
+    private TimetableDayScheduleDto weekdaySchedule;
+    private TimetableDayScheduleDto saturdaySchedule;
+    private TimetableDayScheduleDto holidaySchedule;
 }

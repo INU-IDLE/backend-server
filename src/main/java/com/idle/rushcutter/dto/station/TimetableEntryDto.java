@@ -13,4 +13,5 @@ public class TimetableEntryDto {
     private String endStationName;
     private String trainType;
     private boolean isFirstTrain;
+    private boolean isLastTrain;
 }
