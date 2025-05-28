@@ -70,6 +70,17 @@
     { "internalCode": "234-3", "externalCode": "263" },
     { "internalCode": "234-4", "externalCode": "264" }
   ],
+  "3호선": [
+    { "internalCode": "309", "externalCode": "310" },
+    { "internalCode": "310", "externalCode": "311" },
+    { "internalCode": "311", "externalCode": "312" },
+    { "internalCode": "312", "externalCode": "313" },
+    { "internalCode": "313", "externalCode": "314" },
+    { "internalCode": "314", "externalCode": "315" },
+    { "internalCode": "315", "externalCode": "316" },
+    { "internalCode": "316", "externalCode": "317" },
+    { "internalCode": "317", "externalCode": "370" }
+  ],
   "5호선": [
     { "internalCode": "P549", "externalCode": "569" },
     { "internalCode": "P550", "externalCode": "570" },
