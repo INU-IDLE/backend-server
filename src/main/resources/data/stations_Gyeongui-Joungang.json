@@ -1,0 +1,589 @@
+{
+  "header": {
+    "resultCnt": 78,
+    "resultCode": "00",
+    "resultMsg": "정상 처리되었습니다."
+  },
+  "body": [
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 1,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K338",
+      "stinNm": "도라산"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 2,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K337",
+      "stinNm": "임진강"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 3,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K336",
+      "stinNm": "운천"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 4,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K335",
+      "stinNm": "문산"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 5,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K334",
+      "stinNm": "파주(두원대학)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 6,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K333",
+      "stinNm": "월롱(서영대학교)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 7,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K331",
+      "stinNm": "금촌"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 8,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K330",
+      "stinNm": "금릉"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 9,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K329",
+      "stinNm": "운정"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 10,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K328",
+      "stinNm": "야당"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 11,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K327",
+      "stinNm": "탄현"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 12,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K326",
+      "stinNm": "일산"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 13,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K325",
+      "stinNm": "풍산"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 14,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K324",
+      "stinNm": "백마"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 15,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K323",
+      "stinNm": "곡산"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 16,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K322",
+      "stinNm": "대곡"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 17,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K321",
+      "stinNm": "능곡"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 18,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K320",
+      "stinNm": "행신"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 19,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K319",
+      "stinNm": "강매"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 20,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K318",
+      "stinNm": "한국항공대"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 21,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K317",
+      "stinNm": "수색"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 22,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K316",
+      "stinNm": "디지털미디어시티"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 23,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K315",
+      "stinNm": "가좌"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 24,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "P314",
+      "stinNm": "신촌"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 25,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "P313",
+      "stinNm": "서울역"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 24,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K314",
+      "stinNm": "홍대입구"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 25,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K313",
+      "stinNm": "서강대"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 26,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K312",
+      "stinNm": "공덕"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 27,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K311",
+      "stinNm": "효창공원앞"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 28,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K110",
+      "stinNm": "용산"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 29,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K111",
+      "stinNm": "이촌"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 30,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K112",
+      "stinNm": "서빙고"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 31,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K113",
+      "stinNm": "한남"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 32,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K114",
+      "stinNm": "옥수"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 33,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K115",
+      "stinNm": "응봉"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 34,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K116",
+      "stinNm": "왕십리"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 35,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K117",
+      "stinNm": "청량리"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 36,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K118",
+      "stinNm": "회기"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 37,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K119",
+      "stinNm": "중랑"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 38,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K120",
+      "stinNm": "상봉"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 39,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K121",
+      "stinNm": "망우"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 40,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K122",
+      "stinNm": "양원(서울시북부병원)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 41,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K123",
+      "stinNm": "구리"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 42,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K124",
+      "stinNm": "도농"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 43,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K125",
+      "stinNm": "양정"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 44,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K126",
+      "stinNm": "덕소"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 45,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K127",
+      "stinNm": "도심"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 46,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K128",
+      "stinNm": "팔당"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 47,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K129",
+      "stinNm": "운길산"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 48,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K130",
+      "stinNm": "양수"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 49,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K131",
+      "stinNm": "신원"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 50,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K132",
+      "stinNm": "국수"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 51,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K133",
+      "stinNm": "아신(아세아연합신학대)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 52,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K134",
+      "stinNm": "오빈"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 53,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K135",
+      "stinNm": "양평"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 54,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K136",
+      "stinNm": "원덕(추읍산)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 55,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K137",
+      "stinNm": "용문"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K4",
+      "routNm": "경의중앙",
+      "stinConsOrdr": 56,
+      "railOprIsttCd": "KR",
+      "lnCd": "K4",
+      "stinCd": "K138",
+      "stinNm": "지평"
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "header": {
+    "resultCnt": 30,
+    "resultCode": "00",
+    "resultMsg": "정상 처리되었습니다."
+  },
+  "body": [
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 1,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I110",
+      "stinNm": "계양"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 2,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I111",
+      "stinNm": "귤현"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 3,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I112",
+      "stinNm": "박촌"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 4,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I113",
+      "stinNm": "임학"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 5,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I114",
+      "stinNm": "계산"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 6,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I115",
+      "stinNm": "경인교대입구"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 7,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I116",
+      "stinNm": "작전"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 8,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I117",
+      "stinNm": "갈산"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 9,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I118",
+      "stinNm": "부평구청"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 10,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I119",
+      "stinNm": "부평시장"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 11,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I120",
+      "stinNm": "부평"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 12,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I121",
+      "stinNm": "동수"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 13,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I122",
+      "stinNm": "부평삼거리"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 14,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I123",
+      "stinNm": "간석오거리"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 15,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I124",
+      "stinNm": "인천시청"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 16,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I125",
+      "stinNm": "예술회관"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 17,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I126",
+      "stinNm": "인천터미널"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 18,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I127",
+      "stinNm": "문학경기장"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 19,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I128",
+      "stinNm": "선학"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 20,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I129",
+      "stinNm": "신연수"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 21,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I130",
+      "stinNm": "원인재"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 22,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I131",
+      "stinNm": "동춘"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 23,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I132",
+      "stinNm": "동막"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 24,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I133",
+      "stinNm": "캠퍼스타운"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 25,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I134",
+      "stinNm": "테크노파크"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 26,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I135",
+      "stinNm": "지식정보단지"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 27,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I136",
+      "stinNm": "인천대입구"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 28,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I137",
+      "stinNm": "센트럴파크"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 29,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I138",
+      "stinNm": "국제업무지구"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "I1",
+      "routNm": "인천1호선",
+      "stinConsOrdr": 30,
+      "railOprIsttCd": "IC",
+      "lnCd": "I1",
+      "stinCd": "I139",
+      "stinNm": "송도달빛축제공원"
+    }
+  ]
+}

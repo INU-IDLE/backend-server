@@ -1,0 +1,639 @@
+{
+  "header": {
+    "resultCnt": 63,
+    "resultCode": "00",
+    "resultMsg": "정상 처리되었습니다."
+  },
+  "body": [
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 1,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K209",
+      "stinNm": "청량리"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 2,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K210",
+      "stinNm": "왕십리"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 3,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K211",
+      "stinNm": "서울숲"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 4,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K212",
+      "stinNm": "압구정로데오"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 5,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K213",
+      "stinNm": "강남구청"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 6,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K214",
+      "stinNm": "선정릉(한국과학창의재단)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 7,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K215",
+      "stinNm": "선릉"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 8,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K216",
+      "stinNm": "한티"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 9,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K217",
+      "stinNm": "도곡"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 10,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K218",
+      "stinNm": "구룡"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 11,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K219",
+      "stinNm": "개포동"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 12,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K220",
+      "stinNm": "대모산입구"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 13,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K221",
+      "stinNm": "수서"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 14,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K222",
+      "stinNm": "복정(동서울대학)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 15,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K223",
+      "stinNm": "가천대"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 16,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K224",
+      "stinNm": "태평"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 17,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K225",
+      "stinNm": "모란"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 18,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K226",
+      "stinNm": "야탑"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 19,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K227",
+      "stinNm": "이매(성남아트센터)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 20,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K228",
+      "stinNm": "서현"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 21,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K229",
+      "stinNm": "수내(한국잡월드)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 22,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K230",
+      "stinNm": "정자"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 23,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K231",
+      "stinNm": "미금(분당서울대병원)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 24,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K232",
+      "stinNm": "오리"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 25,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K233",
+      "stinNm": "죽전(단국대)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 26,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K234",
+      "stinNm": "보정"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 27,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K235",
+      "stinNm": "구성"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 28,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K236",
+      "stinNm": "신갈"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 29,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K237",
+      "stinNm": "기흥(백남준아트센터)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 30,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K238",
+      "stinNm": "상갈(루터대학교)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 31,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K239",
+      "stinNm": "청명"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 32,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K240",
+      "stinNm": "영통(경희대)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 33,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K241",
+      "stinNm": "망포"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 34,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K242",
+      "stinNm": "매탄권선"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 35,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K243",
+      "stinNm": "수원시청(경기도문화의전당)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 36,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K244",
+      "stinNm": "매교"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 37,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K245",
+      "stinNm": "수원"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 38,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K246",
+      "stinNm": "고색"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 39,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K247",
+      "stinNm": "오목천"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 40,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K248",
+      "stinNm": "어천"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 41,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K249",
+      "stinNm": "야목"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 42,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K250",
+      "stinNm": "사리"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 43,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K251",
+      "stinNm": "한대앞"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 44,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K252",
+      "stinNm": "중앙"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 45,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K253",
+      "stinNm": "고잔"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 46,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K254",
+      "stinNm": "초지"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 47,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K255",
+      "stinNm": "안산"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 48,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K256",
+      "stinNm": "신길온천"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 49,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K257",
+      "stinNm": "정왕"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 50,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K258",
+      "stinNm": "오이도"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 51,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K259",
+      "stinNm": "달월"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 52,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K260",
+      "stinNm": "월곶"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 53,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K261",
+      "stinNm": "소래포구"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 54,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K262",
+      "stinNm": "인천논현"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 55,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K263",
+      "stinNm": "호구포"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 56,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K264",
+      "stinNm": "남동인더스파크"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 57,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K265",
+      "stinNm": "원인재"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 58,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K266",
+      "stinNm": "연수"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 59,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K267",
+      "stinNm": "송도"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 60,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K269",
+      "stinNm": "인하대"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 61,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K270",
+      "stinNm": "숭의(인하대병원)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 62,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K271",
+      "stinNm": "신포"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K1",
+      "routNm": "수인분당",
+      "stinConsOrdr": 63,
+      "railOprIsttCd": "KR",
+      "lnCd": "K1",
+      "stinCd": "K272",
+      "stinNm": "인천"
+    }
+  ]
+}

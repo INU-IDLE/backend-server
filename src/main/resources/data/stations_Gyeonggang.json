@@ -1,0 +1,129 @@
+{
+  "header": {
+    "resultCnt": 12,
+    "resultCode": "00",
+    "resultMsg": "정상 처리되었습니다."
+  },
+  "body": [
+    {
+      "mreaWideCd": "01",
+      "routCd": "K5",
+      "routNm": "경강",
+      "stinConsOrdr": 1,
+      "railOprIsttCd": "KR",
+      "lnCd": "K5",
+      "stinCd": "K409",
+      "stinNm": "판교(판교테크노밸리)"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K5",
+      "routNm": "경강",
+      "stinConsOrdr": 2,
+      "railOprIsttCd": "KR",
+      "lnCd": "K5",
+      "stinCd": "K410",
+      "stinNm": "성남"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K5",
+      "routNm": "경강",
+      "stinConsOrdr": 3,
+      "railOprIsttCd": "KR",
+      "lnCd": "K5",
+      "stinCd": "K411",
+      "stinNm": "이매"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K5",
+      "routNm": "경강",
+      "stinConsOrdr": 4,
+      "railOprIsttCd": "KR",
+      "lnCd": "K5",
+      "stinCd": "K412",
+      "stinNm": "삼동"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K5",
+      "routNm": "경강",
+      "stinConsOrdr": 5,
+      "railOprIsttCd": "KR",
+      "lnCd": "K5",
+      "stinCd": "K413",
+      "stinNm": "경기광주"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K5",
+      "routNm": "경강",
+      "stinConsOrdr": 6,
+      "railOprIsttCd": "KR",
+      "lnCd": "K5",
+      "stinCd": "K414",
+      "stinNm": "초월"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K5",
+      "routNm": "경강",
+      "stinConsOrdr": 7,
+      "railOprIsttCd": "KR",
+      "lnCd": "K5",
+      "stinCd": "K415",
+      "stinNm": "곤지암"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K5",
+      "routNm": "경강",
+      "stinConsOrdr": 8,
+      "railOprIsttCd": "KR",
+      "lnCd": "K5",
+      "stinCd": "K416",
+      "stinNm": "신둔도예촌"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K5",
+      "routNm": "경강",
+      "stinConsOrdr": 9,
+      "railOprIsttCd": "KR",
+      "lnCd": "K5",
+      "stinCd": "K417",
+      "stinNm": "이천"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K5",
+      "routNm": "경강",
+      "stinConsOrdr": 10,
+      "railOprIsttCd": "KR",
+      "lnCd": "K5",
+      "stinCd": "K418",
+      "stinNm": "부발"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K5",
+      "routNm": "경강",
+      "stinConsOrdr": 11,
+      "railOprIsttCd": "KR",
+      "lnCd": "K5",
+      "stinCd": "K419",
+      "stinNm": "세종대왕릉"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "K5",
+      "routNm": "경강",
+      "stinConsOrdr": 12,
+      "railOprIsttCd": "KR",
+      "lnCd": "K5",
+      "stinCd": "K420",
+      "stinNm": "여주"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "header": {
+    "resultCnt": 9,
+    "resultCode": "00",
+    "resultMsg": "정상 처리되었습니다."
+  },
+  "body": [
+    {
+      "mreaWideCd": "01",
+      "routCd": "A",
+      "routNm": "GTX-A",
+      "stinConsOrdr": 1,
+      "railOprIsttCd": "GX",
+      "lnCd": "A",
+      "stinCd": "X101",
+      "stinNm": "운정중앙"
+    },
+
+    {
+      "mreaWideCd": "01",
+      "routCd": "A",
+      "routNm": "GTX-A",
+      "stinConsOrdr": 2,
+      "railOprIsttCd": "GX",
+      "lnCd": "A",
+      "stinCd": "X102",
+      "stinNm": "킨텍스"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "A",
+      "routNm": "GTX-A",
+      "stinConsOrdr": 3,
+      "railOprIsttCd": "GX",
+      "lnCd": "A",
+      "stinCd": "X103",
+      "stinNm": "대곡"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "A",
+      "routNm": "GTX-A",
+      "stinConsOrdr": 4,
+      "railOprIsttCd": "GX",
+      "lnCd": "A",
+      "stinCd": "X105",
+      "stinNm": "연신내"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "A",
+      "routNm": "GTX-A",
+      "stinConsOrdr": 5,
+      "railOprIsttCd": "GX",
+      "lnCd": "A",
+      "stinCd": "X106",
+      "stinNm": "서울역"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "A",
+      "routNm": "GTX-A",
+      "stinConsOrdr": 6,
+      "railOprIsttCd": "GX",
+      "lnCd": "A",
+      "stinCd": "X108",
+      "stinNm": "수서"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "A",
+        "routNm": "GTX-A",
+      "stinConsOrdr": 7,
+      "railOprIsttCd": "GX",
+      "lnCd": "A",
+      "stinCd": "X109",
+      "stinNm": "성남"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "A",
+      "routNm": "GTX-A",
+      "stinConsOrdr": 8,
+      "railOprIsttCd": "GX",
+      "lnCd": "A",
+      "stinCd": "X110",
+      "stinNm": "구성"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "A",
+      "routNm": "GTX-A",
+      "stinConsOrdr": 9,
+      "railOprIsttCd": "SR",
+      "lnCd": "A",
+      "stinCd": "X111",
+      "stinNm": "동탄"
+    }
+  ]
+}

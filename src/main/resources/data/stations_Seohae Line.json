@@ -1,0 +1,219 @@
+{
+  "header": {
+    "resultCnt": 21,
+    "resultCode": "00",
+    "resultMsg": "정상 처리되었습니다."
+  },
+  "body": [
+    {
+      "mreaWideCd": "01",
+      "routCd": "WS",
+      "routNm": "서해선",
+      "stinConsOrdr": 1,
+      "railOprIsttCd": "KR",
+      "lnCd": "WS",
+      "stinCd": "S07",
+      "stinNm": "일산"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "WS",
+      "routNm": "서해선",
+      "stinConsOrdr": 2,
+      "railOprIsttCd": "KR",
+      "lnCd": "WS",
+      "stinCd": "S08",
+      "stinNm": "풍산"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "WS",
+      "routNm": "서해선",
+      "stinConsOrdr": 3,
+      "railOprIsttCd": "KR",
+      "lnCd": "WS",
+      "stinCd": "S09",
+      "stinNm": "백마"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "WS",
+      "routNm": "서해선",
+      "stinConsOrdr": 4,
+      "railOprIsttCd": "KR",
+      "lnCd": "WS",
+      "stinCd": "S10",
+      "stinNm": "곡산"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "WS",
+      "routNm": "서해선",
+      "stinConsOrdr": 5,
+      "railOprIsttCd": "KR",
+      "lnCd": "WS",
+      "stinCd": "S11",
+      "stinNm": "대곡"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "WS",
+      "routNm": "서해선",
+      "stinConsOrdr": 6,
+      "railOprIsttCd": "KR",
+      "lnCd": "WS",
+      "stinCd": "S12",
+      "stinNm": "능곡"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "WS",
+      "routNm": "서해선",
+      "stinConsOrdr": 7,
+      "railOprIsttCd": "KR",
+      "lnCd": "WS",
+      "stinCd": "S13",
+      "stinNm": "김포공항역"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "WS",
+      "routNm": "서해선",
+      "stinConsOrdr": 8,
+      "railOprIsttCd": "KR",
+      "lnCd": "WS",
+      "stinCd": "S14",
+      "stinNm": "원종"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "WS",
+      "routNm": "서해선",
+      "stinConsOrdr": 9,
+      "railOprIsttCd": "KR",
+      "lnCd": "WS",
+      "stinCd": "S15",
+      "stinNm": "부천종합운동장역"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "WS",
+      "routNm": "서해선",
+      "stinConsOrdr": 10,
+      "railOprIsttCd": "SW",
+      "lnCd": "WS",
+      "stinCd": "S16",
+      "stinNm": "소사"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "WS",
+      "routNm": "서해선",
+      "stinConsOrdr": 11,
+      "railOprIsttCd": "SW",
+      "lnCd": "WS",
+      "stinCd": "S17",
+      "stinNm": "소새울"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "WS",
+      "routNm": "서해선",
+      "stinConsOrdr": 12,
+      "railOprIsttCd": "SW",
+      "lnCd": "WS",
+      "stinCd": "S18",
+      "stinNm": "시흥대야"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "WS",
+      "routNm": "서해선",
+      "stinConsOrdr": 13,
+      "railOprIsttCd": "SW",
+      "lnCd": "WS",
+      "stinCd": "S19",
+      "stinNm": "신천"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "WS",
+      "routNm": "서해선",
+      "stinConsOrdr": 14,
+      "railOprIsttCd": "SW",
+      "lnCd": "WS",
+      "stinCd": "S20",
+      "stinNm": "신현"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "WS",
+      "routNm": "서해선",
+      "stinConsOrdr": 15,
+      "railOprIsttCd": "SW",
+      "lnCd": "WS",
+      "stinCd": "S22",
+      "stinNm": "시흥시청"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "WS",
+      "routNm": "서해선",
+      "stinConsOrdr": 16,
+      "railOprIsttCd": "SW",
+      "lnCd": "WS",
+      "stinCd": "S23",
+      "stinNm": "시흥능곡"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "WS",
+      "routNm": "서해선",
+      "stinConsOrdr": 17,
+      "railOprIsttCd": "SW",
+      "lnCd": "WS",
+      "stinCd": "S24",
+      "stinNm": "달미"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "WS",
+      "routNm": "서해선",
+      "stinConsOrdr": 18,
+      "railOprIsttCd": "SW",
+      "lnCd": "WS",
+      "stinCd": "S25",
+      "stinNm": "선부"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "WS",
+      "routNm": "서해선",
+      "stinConsOrdr": 19,
+      "railOprIsttCd": "SW",
+      "lnCd": "WS",
+      "stinCd": "S26",
+      "stinNm": "초지"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "WS",
+      "routNm": "서해선",
+      "stinConsOrdr": 20,
+      "railOprIsttCd": "SW",
+      "lnCd": "WS",
+      "stinCd": "S27",
+      "stinNm": "시우"
+    },
+    {
+      "mreaWideCd": "01",
+      "routCd": "WS",
+      "routNm": "서해선",
+      "stinConsOrdr": 21,
+      "railOprIsttCd": "SW",
+      "lnCd": "WS",
+      "stinCd": "S28",
+      "stinNm": "원시"
+    }
+  ]
+}
